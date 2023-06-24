@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TWICE IS LIFE</title>
+        <link rel="stylesheet" type="text/css"  href="layout-join.css">
+    </head>
+
+    <body>
+        <div class="header">
+        </div>
+
+        <div class="nav-bar">
+            <a href="/Users/tuanh/twice-fanpage/home.html">HOME</a>
+            <a href="/Users/tuanh/twice-fanpage/join.html">JOIN</a>
+            <a href="/Users/tuanh/twice-fanpage/links.html">LINKS</a>
+            <a href="/Users/tuanh/twice-fanpage/photos.html">PHOTOS</a>
+        </div>
+
+        <form action="/join_page" method="post">
+            <fieldset class="pb">
+                <legend>JOIN</legend>
+
+                <div class="pb_user-info">
+                    <label for="username">USERNAME</label>
+                    <input type="text" name="user_name" id="username">
+
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="e_mail" id="email">
+                </div>
+
+                <div class="pb_identity">
+                    <input type="checkbox" name="anonymous" id="hide-identity">
+                    <label for="hide-identity">STAY ANONYMOUS</label>
+                </div>
+
+                <div class="pb_question">
+                <label for="post-text">Why do you like TWICE?</label>
+                <textarea name="post" id="post-text"></textarea>
+                </div>
+                <button type="submit">JOIN</button>
+
+            </fieldset>
+        </form>
+
+    </body>
+</html>
