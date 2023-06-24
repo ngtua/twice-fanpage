@@ -1,15 +1,19 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content:  flex-start;
+    justify-content:  center;
+    background-color: rgb(252, 225, 255);
+    color: rgb(32, 1, 32);
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    background-color: azure;
 }
 
 .nav-bar {
+    background-color: aliceblue;
     border-top: solid;
     border-bottom: solid;
     display: flex;
@@ -30,4 +34,23 @@ h1 {
     font-size: xx-large;
     font-weight: lighter;
     font-family: 'Courier New', monospace;
+}
+img {
+    background-color: white;
+    border-style: dashed;
+    border-color: darkorchid;
+    padding: 2% 2% 2% 2%;
+    display: flex;
+    width: 1fr;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    text-align: center;
+    margin: 2% 7% 2% 7%;
+}
+
+.photos-desc {
+    width: 70%;
+    align-self: center;
+    font-size: medium;
 }
